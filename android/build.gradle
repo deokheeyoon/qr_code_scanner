@@ -26,6 +26,8 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdk 33
+    
+    namespace 'com.deokheeyoon.qrcodescanner'
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
